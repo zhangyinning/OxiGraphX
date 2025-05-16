@@ -23,7 +23,7 @@ repository/
 
 ## Data Preparation
 
-Unzip the data.tar.gz file in the directory. The dataset shall be prepared following the structure below:
+Unzip the **data.tar.gz** file in the directory. The dataset shall be prepared following the structure below:
 
 ```
 data/
