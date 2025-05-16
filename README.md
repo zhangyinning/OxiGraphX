@@ -108,4 +108,4 @@ For any inquiries or assistance with the code, please open a GitHub issue or con
 * Yinning Zhang: [yzhang@westga.edu](mailto:yzhang@westga.edu)
 * Dr. Yong Wei: [yong.wei@ung.edu](mailto:yong.wei@ung.edu)
 
-Thank you and happy experimenting!
+We welcome your feedback and collaboration. Thank you!
