@@ -26,7 +26,7 @@ class CEALConv(MessagePassing):
                 towers = 1,
                 pre_layers = 1,
                 post_layers = 1,
-                divide_input = False
+                divide_input = False,
                 **kwargs):
       """
         in_channels: dimension of initial node embedding

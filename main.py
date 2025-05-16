@@ -15,6 +15,19 @@ from train import *
 
 
 # read in hyperparameters
+
+'''
+numDatasets = 6 
+post_layers = 1
+epochs = 2500
+learning_rate = 0.001
+train_dataset_idx = [0, 1, 2, 3, 4, 5]
+test_dataset_idx = [0, 1, 2, 3, 4, 5]
+dispProgress = False
+numLayers = 2
+batch_size = 32
+'''
+
 numDatasets = int(os.getenv('numDatasets')) 
 gpuID = os.getenv('gpuID')
 post_layers = int(os.getenv('post_layers'))

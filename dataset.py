@@ -160,30 +160,6 @@ def prep_datasets(numDatasets, train_dataset_idx, test_dataset_idx, train_p, val
       print(mydataset[30].y)
       '''
 
-
-      g = mydataset[0].edge_index
-      print(g.shape)
-      for k in range(1, 10):
-          sum_reachable_nodes = 0
-          reachable_nodes = []
-          for n in range(159):
-              subset, edge_index, mapping, edge_mask = utils.k_hop_subgraph(n, k, g, relabel_nodes=True)
-              sum_reachable_nodes += subset.shape[0]-1
-              reachable_nodes.append(subset)
-          avg_reachablenodes = sum_reachable_nodes/159
-          mat = [[0 for j in range(159)]
-                 for i in range(159)]
-          sum_shareable_nodes = 0
-          for x in range(159):
-              for y in range(159):
-                  if x!=y:
-                      mat[x][y] = len(intersection(reachable_nodes[x], reachable_nodes[y]))
-                      sum_shareable_nodes+=mat[x][y]
-          avg_sharednodes = sum_shareable_nodes/(158*159)
-          msg = str(k) + ' '+ str(avg_sharednodes)
-          print(msg)
-      
-
       tr_dataset, v_dataset, te_dataset = split_dataset(mydataset, train_p, val_p, shuffle=shuffle)
       trainset_list_reserved.append(tr_dataset)
       valset_list_reserved.append(v_dataset)

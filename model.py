@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import torch
 import torch.nn.functional as F
 from torch.nn import Linear, ReLU, Sequential
-from torch_geometric.nn import GCNConv, BatchNorm, global_add_pool, global_mean_pool
+from torch_geometric.nn import BatchNorm, global_add_pool, global_mean_pool
 from tqdm import tqdm
 import os.path as osp
 from sklearn.metrics import r2_score
@@ -14,7 +14,7 @@ from ceal import *
 from utils import *
 from dataset import MyDataset
 from config import *
-from pna import PNAConv
+
 
 
 class MyCEALNetwork(torch.nn.Module):
