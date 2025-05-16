@@ -18,7 +18,7 @@ repository/
 ├── aggregators.py      # aggregator functions
 ├── utils.py            # General utility functions (training, evaluation, visualization)
 ├── utils_data_JSNN.py  # Project-specific data preprocessing utilities
-└── data/
+└── data/               # data foler
 ```
 
 ## Data Preparation
@@ -41,7 +41,7 @@ Each compound directory must contain atomic coordinates (CRYSTAL_*.xyz) and ener
 
 ## Requirements
 
-The env.yaml describes the environment requirements.
+The **env.yaml** describes the environment requirements.
 
 You can also install the necessary Python libraries using pip:
 
