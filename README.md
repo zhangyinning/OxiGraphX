@@ -52,7 +52,7 @@ pip install torch torch-geometric numpy matplotlib sklearn scipy tqdm
 
 ## Training the Model
 
-Before training, set the following environment variables either directly in your terminal or via a bash script:
+Before training, set the following environment variables either directly in your terminal or via a bash script. An example is provided in job.pbs
 
 ```bash
 export numDatasets=6
