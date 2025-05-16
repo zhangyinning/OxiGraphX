@@ -37,7 +37,7 @@ data/
   │     └── DEFECT_ENERGY_EV
 ```
 
-Each compound directory must contain atomic coordinates (`COORD_*.xyz`), configuration files (`CONFIGS`), and energy values (`DEFECT_ENERGY_EV`).
+Each compound directory must contain atomic coordinates (CRYSTAL_*.xyz) and energy values (`DEFECT_ENERGY_EV`).
 
 ## Requirements
 
