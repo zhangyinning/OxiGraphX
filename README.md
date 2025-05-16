@@ -11,9 +11,10 @@ repository/
 ├── main.py             # Main script for training, evaluation, data loading, and model initialization
 ├── train.py            # Training and evaluation routines
 ├── dataset.py          # Data handling and processing with PyTorch Geometric
+├── config.py          # dataset configurations
 ├── ceal.py             # Implementation of the CEAL convolutional layer
 ├── model.py            # OxiGraphX (MyCEALNetwork) graph neural network model
-├── pred.py             # Prediction script for new datasets
+├── pred.py             # Use a trained model to predict for new datasets
 ├── scalers.py          # Degree-based scaler functions
 ├── aggregators.py      # aggregator functions
 ├── utils.py            # General utility functions (training, evaluation, visualization)
