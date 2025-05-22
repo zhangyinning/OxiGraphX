@@ -2,8 +2,10 @@
 
 ## 🔬 Introduction
 
-This repository accompanies the paper  
+This repository accompanies the paper:
+
 **[Tukur et al., "Machine Learning‐Guided Discovery of High‐Entropy Perovskite Oxide Electrocatalysts via Oxygen Vacancy Engineering," _Small_ (2025)](https://onlinelibrary.wiley.com/doi/10.1002/smll.202501946)**.  
+
 It contains the source code and data pipeline for building and training the **OxiGraphX** model — a novel graph neural network framework based on the CEAL-WF layer for accurate prediction of oxygen vacancy formation energies (OVFEs) in high-entropy perovskite oxides.
 
 **OxiGraphX**, is introduced as a novel graph neural network (GNN) model designed to capture the complex relationships among structure, composition, and atomic chemical environments for accurate prediction of oxygen vacancy formation energies (OVFEs) in HEPOs. By integrating machine learning (ML), density functional theory (DFT), and experimental validation, this work demonstrates an efficient framework for rapidly and accurately screening HEPO electrocatalysts for oxygen evolution reaction (OER).
