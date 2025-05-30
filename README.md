@@ -67,7 +67,7 @@ Each compound directory must contain atomic coordinates (CRYSTAL_*.xyz) and ener
 
 **Step 2: Preprocess with dataset.py**
 <p>
-Running ```main.py``` will automatically call ```MyDataset.process()``` in ```dataset.py```, which:
+Running  main.py  will automatically call  MyDataset.process()  in  dataset.py , which:
 <ul>
   <li>
 Reads atomic coordinates and energy files
@@ -79,9 +79,9 @@ Saves them as:
   </li>
 </ul>
 
-     ```
-     data/<compound>/processed/data.pt
-     ``` (graph dataset)
+      
+     data/<compound>/processed/data.pt (graph dataset)
+     
 
 These ```data.pt``` files are used later during model training.
 </p>
