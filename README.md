@@ -66,6 +66,7 @@ data/
 Each compound directory must contain atomic coordinates (CRYSTAL_*.xyz) and energy values (`DEFECT_ENERGY_EV`).
 
 **Step 2: Preprocess with dataset.py**
+<p>
 Running ```main.py``` will automatically call ```MyDataset.process()``` in ```dataset.py```, which:
 <ul>
   <li>
@@ -81,7 +82,7 @@ Saves them as:
      ```data/<compound>/processed/data.pt``` (graph dataset)
 
 These ```data.pt``` files are used later during model training.
-
+</p>
 ## Evironmental Requirements
 
 The **env.yaml** describes the environment requirements. Use the provided env.yaml to create a consistent conda environment. 
