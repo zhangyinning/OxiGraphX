@@ -8,17 +8,18 @@ This repository accompanies the paper:
 
 It contains the source code and data pipeline for building and training the **OxiGraphX** model — a novel graph neural network framework based on the CEAL-WF layer for accurate prediction of oxygen vacancy formation energies (OVFEs) in high-entropy perovskite oxides.
 
-**OxiGraphX**, is introduced as a novel graph neural network (GNN) model designed to capture the complex relationships among structure, composition, and atomic chemical environments for accurate prediction of oxygen vacancy formation energies (OVFEs) in HEPOs. By integrating machine learning (ML), density functional theory (DFT), and experimental validation, this work demonstrates an efficient framework for rapidly and accurately screening HEPO electrocatalysts for oxygen evolution reaction (OER).
+**OxiGraphX**, is introduced as a novel graph neural network (GNN) model designed to capture the complex relationships among structure, composition, and atomic chemical environments for accurate prediction of oxygen vacancy formation energies (OVFEs) in HEPOs. By integrating machine learning (ML), density functional theory (DFT), and experimental validation, this model demonstrates an efficient framework for rapidly and accurately screening HEPO electrocatalysts for oxygen evolution reaction (OER).
 
 Figure 1. below depicts the material development framework encompassing DFT calculations, ML predictions, and experimental validations. To the best of our knowledge, this framework presents a pioneering effort that translates ML outcomes into laboratory experiments. This innovative framework empowers researchers to leverage ML models to predict diverse properties essential for experimental studies.
 
-![image](https://github.com/user-attachments/assets/b50314fc-4cb1-4ead-9e18-58dc0f1a0312)
+![image](https://github.com/user-attachments/assets/ad27885c-7d4c-46ed-8c4d-ca0ef06c3777)
+
 
 Figure1. Integrated framework featuring ML, DFT, and experiments for OVFE prediction in HEPOs.
 
 OxiGraphX uses a Chemical Environment Adaptive Learning layer with Learnable Weighting Functions (CEAL-WF), shown in Figure 2. It integrates various aggregation functions (e.g., mean, sum, max) and learnable scalers to capture the complex atomic interactions and compositional diversity in HEPOs.
 
-![image](https://github.com/user-attachments/assets/fdbb4789-546a-40ef-8c87-e3a44334e83a)
+![image](https://github.com/user-attachments/assets/bbff78df-190d-4c42-8878-3014c4e617ea)
 
 Figure 2. a) The architecture of the CEAL-WF convolutional layer. b) Overview of OxiGraphX model for OVFE prediction in HEPOs.
 
