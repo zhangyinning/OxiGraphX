@@ -64,16 +64,15 @@ data/
 
 Each compound directory must contain atomic coordinates (CRYSTAL_*.xyz) and energy values (`DEFECT_ENERGY_EV`).
 
-## Requirements
+## Evironmental Requirements
 
-The **env.yaml** describes the environment requirements.
-
-You can also install the necessary Python libraries using pip:
+The **env.yaml** describes the environment requirements. Use the provided env.yaml to create a consistent conda environment. 
 
 ```bash
-pip install torch torch-geometric numpy matplotlib sklearn scipy tqdm
+conda env create -f env.yaml
+conda activate oxigraphx
 ```
-
+This ensures that all package versions are compatible with the code.
 
 ## Training the Model
 
