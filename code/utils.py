@@ -108,6 +108,7 @@ def plot_training_from_file(folder, filename, plotfilename=None, disp=True):
 
    prefix = extract_prefix(filename)
 
+   """
    train_sets = ''
    test_sets = ''
    match = re.search(r'\d+_\d+', filename)
@@ -117,6 +118,7 @@ def plot_training_from_file(folder, filename, plotfilename=None, disp=True):
    train_sets = datasets[0]
    test_sets = datasets[1]
    title = prefix + ', Training Sets: ' + train_sets + ' Testing Sets: ' + test_sets
+   """
 
    result_file = osp.join(folder, filename)
    matrix = []
@@ -155,7 +157,7 @@ def plot_training_from_file(folder, filename, plotfilename=None, disp=True):
    legend_entries = [Line2D([0], [0], color='blue', label='train_loss (Blue)'),
                      Line2D([0], [0], color='green', label='validate_loss (Green)')]
                     # Line2D([0], [0], color='green', label='test_loss (Red)')
-   plt.title(title)
+   plt.title("Training Progress")
    plt.legend(handles=legend_entries, loc='upper right')
 
    if disp:
