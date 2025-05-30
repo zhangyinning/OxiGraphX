@@ -1,0 +1,36 @@
+#!/usr/bin/bash
+#PBS -l ***
+#PBS -l ***
+#PBS -m ***
+#PBS -M 
+#PBS -q ***
+
+JOBID=$( echo ${PBS_JOBID} | cut -f1 -d. )
+
+# Load the modules you need
+module load Anaconda3/2021.05
+
+#Load your conda environment
+eval "$(conda shell.bash hook)"
+conda activate ***
+
+# Change Directory to the working directory
+cd ***
+
+export dispProgress='False'
+export numDatasets='6'
+
+export post_layers='1'
+export learning_rate='0.001'
+
+export epochs='2500'
+export train_dataset_idx='[0, 1, 2, 3, 4, 5]'
+export test_dataset_idx='[0, 1, 2, 3, 4, 5]'
+export numLayers='2'
+export batch_size='32'
+count=1
+while [ $count -le 2 ]
+do
+   python3 main.py
+   ((count++))
+done
