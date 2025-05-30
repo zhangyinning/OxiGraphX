@@ -48,6 +48,7 @@ repository/
 
 ## Data Preparation
 
+**Step 1: Organize your data**
 Unzip the **data.tar.gz** file in the directory. The dataset shall be prepared following the structure below:
 
 ```
@@ -63,6 +64,24 @@ data/
 ```
 
 Each compound directory must contain atomic coordinates (CRYSTAL_*.xyz) and energy values (`DEFECT_ENERGY_EV`).
+
+** Step 2: Preprocess with ```dataset.py```
+**
+Running ```main.py``` will automatically call ```MyDataset.process()``` in ```dataset.py```, which:
+<ul>
+  <li>
+Reads atomic coordinates and energy files
+  </li>
+  <li>
+Constructs graph objects using PyTorch Geometric
+  </li> <li>
+Saves them as:
+  </li>
+</ul>
+
+     ```data/<compound>/processed/data.pt``` (graph dataset)
+
+These ```data.pt``` files are used later during model training.
 
 ## Evironmental Requirements
 
