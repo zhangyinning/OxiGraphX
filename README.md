@@ -65,8 +65,7 @@ data/
 
 Each compound directory must contain atomic coordinates (CRYSTAL_*.xyz) and energy values (`DEFECT_ENERGY_EV`).
 
-** Step 2: Preprocess with ```dataset.py```
-**
+**Step 2: Preprocess with dataset.py**
 Running ```main.py``` will automatically call ```MyDataset.process()``` in ```dataset.py```, which:
 <ul>
   <li>
