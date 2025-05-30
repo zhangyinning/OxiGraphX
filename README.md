@@ -1,7 +1,7 @@
 # GitHub Repository for "Machine Learning-Guided Discovery of High-Entropy Perovskite Oxide Electrocatalysts via Oxygen Vacancy Engineering"
 <img src="https://github.com/user-attachments/assets/5bf49fa7-0f7b-4c2b-8800-d25237b3d678" alt="Sample Image" width="100">
 
-## 🔬 Introduction
+## Introduction
 
 This repository accompanies the paper:
 
@@ -26,6 +26,7 @@ OxiGraphX uses a Chemical Environment Adaptive Learning layer with Learnable Wei
 Figure 2. a) The architecture of the CEAL-WF convolutional layer. b) Overview of OxiGraphX model for OVFE prediction in HEPOs.
 </p>
 
+
 ## Repository Overview
 
 ```
@@ -45,6 +46,7 @@ repository/
 └── data               
       ├── data.tar.gz         # data file
 ```
+
 
 ## Data Preparation
 
@@ -96,6 +98,7 @@ conda env create -f env.yaml
 conda activate oxigraphx
 ```
 This ensures that all package versions are compatible with the code.
+
 
 ## Training the Model
 
