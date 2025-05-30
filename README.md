@@ -79,7 +79,9 @@ Saves them as:
   </li>
 </ul>
 
-     ```data/<compound>/processed/data.pt``` (graph dataset)
+     ```
+     data/<compound>/processed/data.pt
+     ``` (graph dataset)
 
 These ```data.pt``` files are used later during model training.
 </p>
