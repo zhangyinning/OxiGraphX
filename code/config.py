@@ -3,8 +3,7 @@ This is the class for setting the parameters for dataset and ML training
 """
 
 class Config:
-   # main_path = './'
-   
+      
    dataset_root = '../data'
    dataset_root2 = 'new_pred'
    # To use multiple compounds' data
