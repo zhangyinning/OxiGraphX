@@ -14,12 +14,14 @@ Figure 1. below depicts the material development framework encompassing DFT calc
 <p align="center">
 <img src="https://github.com/user-attachments/assets/ad27885c-7d4c-46ed-8c4d-ca0ef06c3777" alt="Sample Image" width="700">
 </p>
+<p align="center">
 Figure1. Integrated framework featuring ML, DFT, and experiments for OVFE prediction in HEPOs.
 </p>
 OxiGraphX uses a Chemical Environment Adaptive Learning layer with Learnable Weighting Functions (CEAL-WF), shown in Figure 2. It integrates various aggregation functions (e.g., mean, sum, max) and learnable scalers to capture the complex atomic interactions and compositional diversity in HEPOs.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/bbff78df-190d-4c42-8878-3014c4e617ea" alt="Sample Image" width="700">
-
+</p>
+<p align="center">
 Figure 2. a) The architecture of the CEAL-WF convolutional layer. b) Overview of OxiGraphX model for OVFE prediction in HEPOs.
 </p>
 
