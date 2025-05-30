@@ -150,7 +150,7 @@ If you use this code for your research, please cite our paper:
 
 ## Contact
 
-For any inquiries or assistance with the code, please open a GitHub issue or contact:
+For any inquiries or assistance with the code, please contact:
 
 * Yinning Zhang: [yzhang@westga.edu](mailto:yzhang@westga.edu)
 * Dr. Yong Wei: [yong.wei@ung.edu](mailto:yong.wei@ung.edu)
