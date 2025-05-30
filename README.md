@@ -136,12 +136,12 @@ python pred.py
 For every compound, it will generate a folder with two files:
 
 *_pred.txt file contains the y_predicted values vs. y_true values.  
-![image](https://github.com/user-attachments/assets/9ae0ea10-4c74-40b1-b1ee-335fb96cb4d9)
+
+<img src="https://github.com/user-attachments/assets/9ae0ea10-4c74-40b1-b1ee-335fb96cb4d9" alt="Sample Image" width="200">
 
 *_pred.txt.png file contains the regression plot from the result. 
 
-![image](https://github.com/user-attachments/assets/c48aad76-51fa-46bc-9631-f263a40d745e)
-
+<img src="https://github.com/user-attachments/assets/c48aad76-51fa-46bc-9631-f263a40d745e" alt="Sample Image" width="200">
 
 
 ## Citation
