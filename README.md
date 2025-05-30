@@ -1,6 +1,5 @@
 # GitHub Repository for "Machine Learning-Guided Discovery of High-Entropy Perovskite Oxide Electrocatalysts via Oxygen Vacancy Engineering"
-![image](https://github.com/user-attachments/assets/5bf49fa7-0f7b-4c2b-8800-d25237b3d678)
-
+<img src="https://github.com/user-attachments/assets/5bf49fa7-0f7b-4c2b-8800-d25237b3d678" alt="Sample Image" width="100">
 
 ## 🔬 Introduction
 
